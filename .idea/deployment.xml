@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="python_case">
+  <component name="PublishConfigData" autoUpload="Always" serverName="python_case" autoUploadExternalChanges="true">
     <serverData>
       <paths name="python_case">
         <serverdata>
@@ -9,7 +9,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="ssh://pyvip@192.168.1.110:22/home/pyvip/.virtualenvs/py3env/bin/python">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/pyvip/py_case/home/pyvip" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
-    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

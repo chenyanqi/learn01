@@ -10,6 +10,11 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="ssh://pyvip@192.168.1.110:22/home/pyvip/.virtualenvs/py3env/bin/python" name="ssh://pyvip@192.168.1.110:22/home/pyvip/.virtualenvs/py3env/bin/python">
+        <fileTransfer host="192.168.1.110" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
