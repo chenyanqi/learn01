@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f9f4fa5a-7262-4e80-b2f5-b219ac1424dc" name="python_case" url="http://192.168.1.110">
+        <fileTransfer host="192.168.1.110" port="22" rootFolder="/home/pyvip/py_case" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
